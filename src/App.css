@@ -1,0 +1,141 @@
+/* Import */
+
+
+/* Home Page */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid black;
+  padding-bottom: 25px;
+}
+.contact {
+  display: flex;
+  gap: 30px;
+}
+.home-page-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #323334;
+}
+.navigation-ul {
+  display: flex;
+  /* gap: 69px; */
+  justify-content: space-evenly;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #323334;
+}
+.navigation {
+  border-bottom: 1.5px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.logo-sv {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  gap: 45px;
+}
+/* Card */
+.card-1 {
+  display: flex;
+  align-items: center;
+
+  background: rgba(219, 208, 204, 0.8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: space-evenly;
+}
+.card-text-1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #323334;
+}
+.card-text-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #a86a3d;
+}
+.text-all {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.viewNow {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  border: 1px solid #323334;
+
+  color: #323334;
+
+  padding: 10px;
+}
+.card-2 {
+  width: 636px;
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  background: #fafafa;
+  /* padding-right: 41px; */
+  /* padding: 150px 61px 185px 317px; */
+}
+.all-text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 35px;
+}
+.row-card-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 23px;
+}
+.card-2-color {
+  background: #eae9e7;
+}
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #323334;
+  width: 260px;
+}
+
+.card {
+  background: url(/src/img/section/material/basket.svg);
+  width: 360px;
+  /* transition: 0.5s; */
+}
+/* .card:hover {
+  background-color: rgba(0, 0, 0, 0.377);
+} */

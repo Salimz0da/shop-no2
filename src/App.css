@@ -1,6 +1,5 @@
 /* Import */
 
-
 /* Home Page */
 .navbar {
   display: flex;
@@ -131,11 +130,30 @@
   width: 260px;
 }
 
-.card {
-  background: url(/src/img/section/material/basket.svg);
-  width: 360px;
-  /* transition: 0.5s; */
+.card{
+  width: 306px;
+  height: 506px;
+  overflow: hidden;
+  position: relative;
+  /* transition: .5s; */
 }
-/* .card:hover {
-  background-color: rgba(0, 0, 0, 0.377);
-} */
+
+.card-content{
+  position: absolute;
+  top: -9999;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.384);
+  transition: top 0.3s linear;
+}
+
+.card:hover .card-content{
+  top: 0;
+  bottom: 0;
+  
+  transition: bottom 0.3s linear;
+
+}
+

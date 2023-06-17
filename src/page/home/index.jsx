@@ -9,15 +9,15 @@ import logoSvg from "../../img/components/navbar/nav-title-logo.svg";
 import aimchair from "../../img/section/mebel/armchair.svg";
 import vase from "../../img/section/mebel/vase.svg";
 import highChair from "../../img/section/mebel/high chair.svg";
-import whiteVase from "../../img/section/material/vase-white.svg";
-import towel from "../../img/section/material/towel.svg";
-import glassBox from "../../img/section/material/glass-box.svg";
-import ceramixPlates from "../../img/section/material/ceramic-plates.svg";
-import clearBox from "../../img/section/material/large-clear-glass-box.svg";
-import jutePlastmase from "../../img/section/material/jute-placemat.svg";
-import whiteBasket from "../../img/section/material/white-basket.svg";
-import basketStandard from "../../img/section/material/basket.svg";
 
+import whiteVase from "../../img/section/material/white-vase.png";
+import towel from "../../img/section/material/towel.png";
+import glassBox from "../../img/section/material/glass-box.png";
+import ceramixPlates from "../../img/section/material/ceramic-plates.png";
+import clearBox from "../../img/section/material/glass-box-clear.png";
+import jutePlastmase from "../../img/section/material/Jute-placemat.png";
+import whiteBasket from "../../img/section/material/basket-white.png";
+import basketStandard from "../../img/section/material/standard-basket.png";
 
 export default function Home() {
   return (
@@ -89,14 +89,13 @@ export default function Home() {
           </div>
           <div className="row">
             <div className="card">
-              <p>gjgj</p>
-              {/* <img src={whiteVase} alt="error" />
-              <p className="title-card">DECOR</p>
-              <p className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <button>addadda</button> */}
+              <div className="card-imageholder">
+                <img src={whiteVase} alt="error" />
+              </div>
+
+              <div className="card-content">
+                <h3>Далеко-далеко за словесными горами.</h3>
+              </div>
             </div>
           </div>
         </div>

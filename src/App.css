@@ -96,7 +96,7 @@
   padding: 10px;
 }
 .card-2 {
-  width: 636px;
+  width: 684px;
   margin-top: 23px;
   display: flex;
   align-items: center;
@@ -130,30 +130,231 @@
   width: 260px;
 }
 
-.card{
+.card {
   width: 306px;
-  height: 506px;
+  height: 472px;
   overflow: hidden;
   position: relative;
   /* transition: .5s; */
 }
 
-.card-content{
+.card-content {
   position: absolute;
-  top: -9999;
+  top: -9999px;
   left: 0;
   right: 0;
   display: flex;
-  align-items: center;
+  align-items: start;
+  justify-content: center;
   background: rgba(0, 0, 0, 0.384);
   transition: top 0.3s linear;
+  flex-direction: column;
+  padding-left: 49px;
+  gap: 30px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 104px;
+}
+.card-title-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #ffffff;
 }
 
-.card:hover .card-content{
+.text-card-3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  color: #ffffff;
+}
+
+.card:hover .card-content {
   top: 0;
   bottom: 0;
-  
-  transition: bottom 0.3s linear;
 
+  transition: bottom 0.3s linear;
 }
 
+.text-card-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #323334;
+}
+
+.card-price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #323334;
+}
+
+.text-all-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.card:hover .text-all-3 {
+  display: none;
+}
+
+.text-all-3-mini {
+  bottom: 0;
+}
+.card-mini {
+  width: 306px;
+  height: 472px;
+  overflow: hidden;
+  position: relative;
+
+  padding-top: 50px;
+}
+.viewNow-whitw {
+  border: 1px solid #fff;
+  color: white;
+}
+/* ADD */
+
+.add-badsheed {
+  width: 100%;
+  height: 510px;
+  background-image: url(/src/img/section/mebel/add-mebel.png);
+  background-size: cover;
+  position: relative;
+}
+.add-badsheed-card {
+  width: 545px;
+  height: 338px;
+  position: absolute;
+  top: 109px;
+  left: 147px;
+  background: rgba(255, 255, 255, 0.9);
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 109px;
+  gap: 16px;
+}
+.add-badsheed-card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #323334;
+}
+.add-badsheed-card-price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #7b5136;
+}
+.add-badsheed-card-price span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  padding-left: 15px;
+  color: #7b5136;
+  position: relative;
+}
+.add-badsheed-card-price span::after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: 1.5px solid black;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+.add-badsheed-card-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  color: #323334;
+}
+/* Card-Material */
+
+.card-material {
+  width: 416px;
+  height: 308px;
+
+  overflow: hidden;
+
+  cursor: pointer;
+
+  display: flex;
+  gap: 32px;
+
+  transition: .5s;
+}
+
+.card-material:hover{
+background-color: gray;
+}
+
+.card-info-material {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+}
+.card-info-material p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #323334;
+}
+.card-info-material h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #323334;
+}
+.card-material-row{
+  display: flex;
+  flex-wrap: wrap;
+}
